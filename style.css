@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
+  animation: btn-zoom 200ms ease 1 forwards;
+}
+
+@keyframes btn-zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.08);
+  }
+}
+
+.container {
+  height: 100vh;
+}
+
+section[aria-label="navbar"] {
+  height: 12%;
+  background-color: #000000;
+}
+
+.navbar div {
+  display: inline-block;
+}
+
+.logo {
+  margin-left: 60px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+
+.line {
+  height: 50px;
+  width: 1px;
+  background-color: #ffffff;
+  margin-left: 60px;
+  position: relative;
+  top: 15px;
+}
+
+.list {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: #ffffffc7;
+}
+
+.fa-circle-chevron-down {
+  background-color: #000000;
+  font-size: 12px;
+  position: relative;
+  left: 8px;
+}
+
+.button-small {
+  margin-left: 240px;
+  background-color: #ba0cc5;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 7px 25px;
+  border-radius: 8px;
+}
+
+section[aria-label="hero"] {
+  height: 88%;
+  background: url(./assets/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hero-heading {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.hero-description {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.button-large {
+  background-color: #ba0cc5;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+}
