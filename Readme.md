@@ -15,7 +15,7 @@ A simple landing page for a crypto firm created using `HTML` and `CSS`. This pro
 
 **Time took to complete this project :** 2.5 hours
 
-## Things I learnt by creating this project :-
+## What I learnt by doing this project :-
 
 - How to create a navigation bar
 - How to change the color of navigation items upon being hovered
@@ -23,4 +23,4 @@ A simple landing page for a crypto firm created using `HTML` and `CSS`. This pro
 - How to use CSS properties like `background-position` and `background-size`
 - How to create buttons and add custom `animations` to it
 
-To view this project, [**click here**](https://portfolio-project-5.vercel.app/).
+[**Live link**](https://portfolio-project-5.vercel.app/) of the project.
