@@ -23,4 +23,4 @@ A simple landing page for a crypto firm created using `HTML` and `CSS`. This pro
 - How to use CSS properties like `background-position` and `background-size`
 - How to create buttons and add custom `animations` to it
 
-### [**Live link**](https://portfolio-project-5.vercel.app/) of the project.
+### [**Live link**](https://portfolio-project-5.vercel.app/) of the project
