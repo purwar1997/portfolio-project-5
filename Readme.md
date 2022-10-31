@@ -4,16 +4,14 @@
 ![CSS](https://img.shields.io/badge/-CSS-brightgreen)
 ![CSS Animations](https://img.shields.io/badge/-CSS%20Animations-orange)
 ![Background Image](https://img.shields.io/badge/-Background%20Image-blue)
-![Netlify](https://img.shields.io/badge/-Netlify-green)
-![Vercel](https://img.shields.io/badge/-Vercel-blueviolet)
 
 ## Description
 
-A simple landing page for a crypto firm created using `HTML` and `CSS`. This project is hosted on both `Netlify` and `Vercel`.
+This project is a landing page for a crypto firm created using `HTML` and `CSS`.
 
 **Created By :** Shubham Purwar
 
-**Time took to complete this project :** 2.5 hours
+**Time took to complete the project :** 2.5 hours
 
 ## What I learnt by creating this project :-
 
@@ -23,4 +21,8 @@ A simple landing page for a crypto firm created using `HTML` and `CSS`. This pro
 - How to use CSS properties like `background-position` and `background-size`
 - How to create buttons and add custom `animations` to it
 
-### [**Live link**](https://portfolio-project-5.vercel.app/) of the project
+### Preview of the project :-
+
+![preview](./preview.png)
+
+### [Live link](https://portfolio-project-5.vercel.app/) of the project.

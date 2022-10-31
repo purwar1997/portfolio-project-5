@@ -6,17 +6,26 @@
   color: #ffffff;
 }
 
-button:hover {
-  cursor: pointer;
-  animation: btn-zoom 200ms ease 1 forwards;
+button {
+  background-color: #ba0cc5;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 600;
 }
 
-@keyframes btn-zoom {
+button:hover {
+  cursor: pointer;
+  animation: zoom 250ms ease forwards;
+}
+
+@keyframes zoom {
   0% {
     transform: scale(1);
   }
   100% {
-    transform: scale(1.08);
+    transform: scale(1.04);
   }
 }
 
@@ -25,20 +34,24 @@ button:hover {
 }
 
 section[aria-label="navbar"] {
-  height: 12%;
+  height: 14%;
   background-color: #000000;
 }
 
-.navbar div {
+.navbar {
+  padding-top: 2.5px;
+}
+
+.navbar > div {
   display: inline-block;
 }
 
 .logo {
   margin-left: 60px;
-  height: 40px;
-  position: relative;
-  top: 10px;
+  width: 110px;
   cursor: pointer;
+  position: relative;
+  top: 12px;
 }
 
 .line {
@@ -47,56 +60,49 @@ section[aria-label="navbar"] {
   background-color: #ffffff;
   margin-left: 60px;
   position: relative;
-  top: 15px;
+  top: 18px;
 }
 
 .list {
-  margin-left: 20px;
+  margin-left: 60px;
   list-style-type: none;
 }
 
 .list-item {
   display: inline-block;
-  margin-left: 50px;
+  margin-right: 50px;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 
 .list-item:hover {
-  color: #ffffffc7;
+  opacity: 0.85;
 }
 
-.fa-circle-chevron-down {
-  background-color: #000000;
+.fa-chevron-down {
   font-size: 12px;
-  position: relative;
-  left: 8px;
+  margin-left: 10px;
 }
 
 .button-small {
-  margin-left: 240px;
-  background-color: #ba0cc5;
-  font-size: 17px;
-  font-weight: 600;
-  padding: 7px 25px;
-  border-radius: 8px;
+  margin-left: 200px;
+  padding: 11px 25px;
 }
 
 section[aria-label="hero"] {
-  height: 88%;
-  background: url(../assets/bg.png);
-  background-position: center;
+  height: 86%;
+  background-image: url(../assets/bg.png);
+  background-position: top center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .hero {
-  position: relative;
-  top: 100px;
   text-align: center;
   width: 50%;
-  margin: 0 auto;
+  margin: auto;
+  padding-top: 120px;
 }
 
 .hero-heading {
@@ -105,17 +111,12 @@ section[aria-label="hero"] {
 }
 
 .hero-description {
+  margin-top: 20px;
   font-size: 20px;
-  padding-top: 15px;
 }
 
 .button-large {
-  background-color: #ba0cc5;
+  margin-top: 40px;
+  padding: 15px 30px;
   font-size: 20px;
-  font-weight: 600;
-  padding: 14px 30px;
-  border: none;
-  border-radius: 10px;
-  position: relative;
-  top: 40px;
 }
